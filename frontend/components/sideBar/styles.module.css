@@ -1,0 +1,40 @@
+.container {
+  background-color: #fff;
+  width: 18vw;
+  height: 100vh;
+  box-shadow: 1px 0px 10px #9995;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.logo{
+  color: blue;
+}
+
+.userDiv{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.userDataDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userDataDiv > strong{
+  color: #000;
+  font-size: 14px;
+}
+
+.userDataDiv > span{
+  color: #90A0B7;
+  font-size: 11px;
+}
+
+.avatar{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
